@@ -1,0 +1,9 @@
+[0] Config.pm:354> INFO - This is Biber 2.6
+[0] Config.pm:357> INFO - Logfile is 'p1.blg'
+[20] biber:302> INFO - === Wed Mar 14, 2018, 13:39:10
+[36] Biber.pm:359> INFO - Reading 'p1.bcf'
+[86] Biber.pm:823> INFO - Found 0 citekeys in bib section 0
+[91] Utils.pm:164> WARN - The file 'p1.bcf' does not contain any citations!
+[99] bbl.pm:597> INFO - Writing 'p1.bbl' with encoding 'ascii'
+[99] bbl.pm:701> INFO - Output to p1.bbl
+[100] Biber.pm:109> INFO - WARNINGS: 1
