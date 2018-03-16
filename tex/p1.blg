@@ -1,9 +1,24 @@
 [0] Config.pm:354> INFO - This is Biber 2.6
 [0] Config.pm:357> INFO - Logfile is 'p1.blg'
-[20] biber:302> INFO - === Wed Mar 14, 2018, 13:39:10
-[36] Biber.pm:359> INFO - Reading 'p1.bcf'
-[86] Biber.pm:823> INFO - Found 0 citekeys in bib section 0
-[91] Utils.pm:164> WARN - The file 'p1.bcf' does not contain any citations!
-[99] bbl.pm:597> INFO - Writing 'p1.bbl' with encoding 'ascii'
-[99] bbl.pm:701> INFO - Output to p1.bbl
-[100] Biber.pm:109> INFO - WARNINGS: 1
+[27] biber:302> INFO - === Fri Mar 16, 2018, 17:28:02
+[43] Biber.pm:359> INFO - Reading 'p1.bcf'
+[114] Biber.pm:823> INFO - Found 8 citekeys in bib section 0
+[130] Biber.pm:3658> INFO - Processing section 0
+[143] Biber.pm:3828> INFO - Looking for bibtex format file '~/Tex/library.bib' for section 0
+[216] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[239] bibtex.pm:1282> INFO - Found BibTeX data source '/cs/home/dav/Tex/library.bib'
+[277] Utils.pm:164> WARN - ISBN '1352-2310' in entry 'Willmott2009' is invalid - run biber with '--validate_datamodel' for details.
+[289] Utils.pm:164> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
+[290] Utils.pm:164> WARN - ISBN '0885-6125' in entry 'Breiman2001' is invalid - run biber with '--validate_datamodel' for details.
+[291] Utils.pm:164> WARN - BibTeX subsystem: /tmp/6Al7oJKqai/library.bib_13719.utf8, line 6, warning: 173 characters of junk seen at toplevel
+[328] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] Biber.pm:3487> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-GB'
+[328] Biber.pm:3493> INFO - No sort tailoring available for locale 'en-GB'
+[366] bbl.pm:597> INFO - Writing 'p1.bbl' with encoding 'ascii'
+[369] Utils.pm:164> WARN - The entry 'Candanedo2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[371] Utils.pm:164> WARN - The entry 'Freund1997' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[374] Utils.pm:164> WARN - The entry 'Pedregosa2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[376] Utils.pm:164> WARN - The entry 'Willmott2009' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[376] bbl.pm:701> INFO - Output to p1.bbl
+[378] Biber.pm:109> INFO - WARNINGS: 8

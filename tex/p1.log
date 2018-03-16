@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.1.19)  14 MAR 2018 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.1.12)  16 MAR 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,34 +577,40 @@ e
 ))
 \c@lstlisting=\count324
 
-
-LaTeX Warning: Empty bibliography on input line 59.
-
 [1
 
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./p1.aux)
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (24.65813pt too wide) in paragraph at lines 86--86
+[][]\OT1/cmr/m/n/10 Otten, H. (2016). A the-or-et-ical ex-am-in-a-tion of boost
+-ing al-gorithms. Re-trieved from $https : / / www . universiteitleiden .
+ []
+
+[3] (./p1.aux)
 Package logreq Info: Writing requests to 'p1.run.xml'.
 \openout1 = `p1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11408 strings out of 493039
- 188825 string characters out of 6136943
- 670356 words of memory out of 5000000
- 14825 multiletter control sequences out of 15000+600000
- 9176 words of font info for 33 fonts, out of 8000000 for 9000
+ 11500 strings out of 493039
+ 190765 string characters out of 6136943
+ 674884 words of memory out of 5000000
+ 14915 multiletter control sequences out of 15000+600000
+ 10144 words of font info for 37 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 37i,6n,37p,791b,1719s stack positions out of 5000i,500n,10000p,200000b,80000s
- </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </
-cs/home/dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </
-cs/home/dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </
-usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </cs/h
-ome/dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk> </usr/s
-hare/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk>
-Output written on p1.pdf (1 page, 28718 bytes).
+ 41i,6n,61p,1298b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <
+/usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </cs/
+home/dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </cs/
+home/dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmtt10.600pk> </usr
+/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </cs/home/
+dav/.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </usr/shar
+e/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </cs/home/dav/
+.cache/texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx9.600pk> </usr/share/tex
+live/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk>
+Output written on p1.pdf (3 pages, 79248 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 291 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,5 +16,429 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{Breiman2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund {\{}{\&}{\}} R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148--156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.}
+      \field{eprintclass}{http:}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{0885-6125}
+      \field{issn}{08856125}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{1}
+      \field{title}{{Random forests}}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
+      \verb{eprint}
+      \verb /dx.doi.org/10.1023{\%}2FA{\%}3A1010933404324
+      \endverb
+      \verb{file}
+      \verb :cs/home/dav/Downloads/RF.pdf:pdf
+      \endverb
+      \keyw{Classification,Ensemble,Regression}
+    \endentry
+    \entry{Candanedo2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=36e0e3f8a2ed7a132697fd3677c48803}{%
+           family={Candanedo},
+           familyi={C\bibinitperiod},
+           given={Luis\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=4ed162ca7bb628491d03d8db6243d941}{%
+           family={Feldheim},
+           familyi={F\bibinitperiod},
+           given={V\'{e}ronique},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=65fc98c29b750ae5a4965b164c267089}{%
+           family={Deramaix},
+           familyi={D\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{b3e66f1b39fced40d83c4d7631e244ba}
+      \strng{fullhash}{352f2ec7cd818a8671ee81b8c3f01101}
+      \strng{authornamehash}{b3e66f1b39fced40d83c4d7631e244ba}
+      \strng{authorfullhash}{352f2ec7cd818a8671ee81b8c3f01101}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents and discusses data-driven predictive models for the energy use of appliances. Data used include measurements of temperature and humidity sensors from a wireless network, weather from a nearby airport station and recorded energy use of lighting fixtures. The paper discusses data filtering to remove non-predictive parameters and feature ranking. Four statistical models were trained with repeated cross validation and evaluated in a testing set: (a) multiple linear regression, (b) support vector machine with radial kernel, (c) random forest and (d) gradient boosting machines (GBM). The best model (GBM) was able to explain 97{\%} of the variance (R2) in the training set and with 57{\%} in the testing set when using all the predictors. From the wireless network, the data from the kitchen, laundry and living room were ranked the highest in importance for the energy prediction. The prediction models with only the weather data, selected the atmospheric pressure (which is correlated to wind speed) as the most relevant weather data variable in the prediction. Therefore, atmospheric pressure may be important to include in energy prediction models and for building performance modeling.}
+      \field{issn}{03787788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{title}{{Data driven prediction models of energy use of appliances in a low-energy house}}
+      \field{volume}{140}
+      \field{year}{2017}
+      \field{pages}{81\bibrangedash 97}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.enbuild.2017.01.083
+      \endverb
+      \verb{file}
+      \verb :cs/home/dav/Downloads/paper.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.enbuild.2017.01.083
+      \endverb
+      \keyw{Appliances,Data mining,Data sets available,Energy,Prediction,Statistical learning models,Wireless sensor network}
+    \endentry
+    \entry{Freund1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=9dae54fc70ef3090ef42046937183be2}{%
+           family={Freund},
+           familyi={F\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=1,hash=8428d6ce4d2319a5be839da6c9ae0128}{%
+           family={Schapire},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \strng{fullhash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \strng{authornamehash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \strng{authorfullhash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In the first part of the paper we consider the problem of dynamically apportioning resources among a set of options in a worst-case on-line framework. The model we study can be interpreted as a broad, abstract extension of the well-studied on-line prediction model to a general decision-theoretic setting. We show that the multiplicative weight-update Littlestone\x{fffd}\x{fffd}\x{fffd}Warmuth rule can be adapted to this model, yielding bounds that are slightly weaker in some cases, but applicable to a considerably more general class of learning problems. We show how the resulting learning algorithm can be applied to a variety of problems, including gambling, multiple-outcome prediction, repeated games, and prediction of points in Rn. In the second part of the paper we apply the multiplicative weight-update technique to derive a new boosting algorithm. This boosting algorithm does not require any prior knowledge about the performance of the weak learning algorithm. We also study generalizations of the new boosting algorithm to the problem of learning functions whose range, rather than being binary, is an arbitrary finite set or a bounded segment of the real line.}
+      \field{issn}{0022-0000}
+      \field{journaltitle}{Journal of Computer and System Sciences}
+      \field{number}{1, part 2}
+      \field{title}{{A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting}}
+      \field{volume}{55}
+      \field{year}{1997}
+      \field{pages}{119\bibrangedash 139}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1006/jcss.1997.1504
+      \endverb
+      \verb{file}
+      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Freund, Schapire - 1997 - A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting(2).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S002200009791504X
+      \endverb
+    \endentry
+    \entry{NormalHedge}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=c0fca6c342b798ab3b2482eb75663d0a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Haipeng},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=1,hash=89c762f6f1cbb415e5ef62949aedecd0}{%
+           family={Schapire},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelimb E\bibnamedelima RE},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=b8fd0c0f416ef8a8bbb50286418e9df8}{%
+           family={Ghahramani},
+           familyi={G\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=064d84a432787740019dc765d9115718}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c294bbcb0687bdb5113cc4c4cd6ebad3}{%
+           family={Cortes},
+           familyi={C\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9ab079a7715bfa4227f140d780bb72b7}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={N\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7a6a6c0be00ec21ecb08879998daf8b8}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={K\bibnamedelima Q},
+           giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{1eb2f27e3df1c2255e31ffd98bb4f175}
+      \strng{fullhash}{1eb2f27e3df1c2255e31ffd98bb4f175}
+      \strng{authornamehash}{1eb2f27e3df1c2255e31ffd98bb4f175}
+      \strng{authorfullhash}{1eb2f27e3df1c2255e31ffd98bb4f175}
+      \strng{editornamehash}{65b7e9a4aa080eb7f3776176b707f81c}
+      \strng{editorfullhash}{c7ba7617e93a69d59a573eaaedbef28e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide a general mechanism to design online learning algorithms based on a minimax analysis within a drifting-games framework. Different online learning settings (Hedge, multi-armed bandit problems and online convex optimization) are studied by converting into various kinds of drifting games. The original minimax analysis for drifting games is then used and generalized by applying a series of relaxations, starting from choosing a convex surrogate of the 0-1 loss function. With different choices of surrogates, we not only recover existing algorithms, but also propose new algorithms that are totally parameter-free and enjoy other useful properties. Moreover, our drifting-games framework naturally allows us to study high probability bounds without resorting to any concentration results, and also a generalized notion of regret that measures how good the algorithm is compared to all but the top small fraction of candidates. Finally, we translate our new Hedge algorithm into a new adaptive boosting algorithm that is computationally faster as shown in experiments, since it ignores a large number of examples on each round.}
+      \field{booktitle}{Advances in Neural Information Processing Systems 27}
+      \field{title}{{A Drifting-Games Analysis for Online Learning and Applications to Boosting}}
+      \field{year}{2014}
+      \field{pages}{1368\bibrangedash 1376}
+      \range{pages}{9}
+      \verb{file}
+      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Luo, Schapire - 2014 - A drifting-games analysis for online learning and applications to boosting(2).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://papers.nips.cc/paper/5549-a-drifting-games-analysis-for-online-learning-and-applications-to-boosting
+      \endverb
+    \endentry
+    \entry{Otten2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c481f627eed1eae6b1219284e6e2c3f5}{%
+           family={Otten},
+           familyi={O\bibinitperiod},
+           given={Heleen},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Leiden University}%
+      }
+      \strng{namehash}{c481f627eed1eae6b1219284e6e2c3f5}
+      \strng{fullhash}{c481f627eed1eae6b1219284e6e2c3f5}
+      \strng{authornamehash}{c481f627eed1eae6b1219284e6e2c3f5}
+      \strng{authorfullhash}{c481f627eed1eae6b1219284e6e2c3f5}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A theoretical examination of boosting algorithms}}
+      \field{type}{Bachelor Thesis}
+      \field{year}{2016}
+      \verb{file}
+      \verb :cs/home/dav/Downloads/otten.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/otten.pdf
+      \endverb
+    \endentry
+    \entry{Pedregosa2012}{article}{}
+      \name{author}{16}{}{%
+        {{uniquename=0,hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=cfa3239dded54488f9a82a5718d5b927}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Ga\"{e}l},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=504ea1986689f1047a6f0beda2cb3822}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=721be0317527f44db425f7a97dcab15e}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{uniquename=0,hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=86e647e5c801f3ce733927f75f029463}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=89d698773eaf2fae761ff0008031c7be}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=b255e99d411f28c789a231829f765c64}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=a08a00cf90823600b731a138afc28949}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=afb9a37bec11b531f1f0f33793a7f1fe}{%
+           family={Passos},
+           familyi={P\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=281ac3097ec8447c2d26e9f3cfde6082}{%
+           family={Brucher},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=23403cde972dddbdb48efe2bcc07dc3c}{%
+           family={Perrot},
+           familyi={P\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=e2f7a458c7c1f0d13cbcaad5c415ad54}{%
+           family={Duchesnay},
+           familyi={D\bibinitperiod},
+           given={\'{E}douard},
+           giveni={\'{E}\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{fullhash}{490c08d091505100c571bcba89f8c65d}
+      \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authorfullhash}{490c08d091505100c571bcba89f8c65d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. This package focuses on bringing machine learning to non-specialists using a general-purpose high-level language. Emphasis is put on ease of use, performance, documentation, and API consistency. It has minimal dependencies and is distributed under the simplified BSD license, encouraging its use in both academic and commercial settings. Source code, binaries, and documentation can be downloaded from http://scikit-learn.sourceforge.net.}
+      \field{isbn}{1532-4435}
+      \field{issn}{15324435}
+      \field{journaltitle}{{\ldots} of Machine Learning {\ldots}}
+      \field{title}{{Scikit-learn: Machine Learning in Python}}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+      \verb{file}
+      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pedregosa et al. - 2012 - Scikit-learn Machine Learning in Python(2).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2078195%7B%5C%%7D5Cnhttp://arxiv.org/abs/1201.0490
+      \endverb
+    \endentry
+    \entry{Vente2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b723134bb7b2e7f781e1219598c0152a}{%
+           family={Vente},
+           familyi={V\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Univeristy of Leiden}%
+      }
+      \strng{namehash}{b723134bb7b2e7f781e1219598c0152a}
+      \strng{fullhash}{b723134bb7b2e7f781e1219598c0152a}
+      \strng{authornamehash}{b723134bb7b2e7f781e1219598c0152a}
+      \strng{authorfullhash}{b723134bb7b2e7f781e1219598c0152a}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{To appear at $\backslash$url{\{}https://www.math.leidenuniv.nl/nl/theses/year/2016/{\}}}
+      \field{title}{{A practical comparison of boosting algorithms}}
+      \field{type}{Bachelor Thesis}
+      \field{year}{2016}
+      \verb{file}
+      \verb :cs/home/dav/Downloads/thesis.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/vente.pdf
+      \endverb
+    \endentry
+    \entry{Willmott2009}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b06501ea344f485ac55f62e3d66beb42}{%
+           family={Willmott},
+           familyi={W\bibinitperiod},
+           given={Cort\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=683ecc9a84dc4c42d3b77ac983b771ca}{%
+           family={Matsuura},
+           familyi={M\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=8817c673f9c94ea7545daf1290a71747}{%
+           family={Robeson},
+           familyi={R\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{19951f921994b8f5ce5355d16804a75e}
+      \strng{fullhash}{5208498f02f7b57eb4c5bd0a4086a8fa}
+      \strng{authornamehash}{19951f921994b8f5ce5355d16804a75e}
+      \strng{authorfullhash}{5208498f02f7b57eb4c5bd0a4086a8fa}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Commonly used sums-of-squares-based error or deviation statistics-like the standard deviation, the standard error, the coefficient of variation, and the root-mean-square error-often are misleading indicators of average error or variability. Sums-of-squares-based statistics are functions of at least two dissimilar patterns that occur within data. Both the mean of a set of error or deviation magnitudes (the average of their absolute values) and their variability influence the value of a sum-of-squares-based error measure, which confounds clear assessment of its meaning. Interpretation problems arise, according to Paul Mielke, because sums-of-squares-based statistics do not satisfy the triangle inequality. We illustrate the difficulties in interpreting and comparing these statistics using hypothetical data, and recommend the use of alternate statistics that are based on sums of error or deviation magnitudes. {{$\copyright$}} 2008 Elsevier Ltd. All rights reserved.}
+      \field{isbn}{1352-2310}
+      \field{issn}{13522310}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{number}{3}
+      \field{title}{{Ambiguities inherent in sums-of-squares-based error statistics}}
+      \field{volume}{43}
+      \field{year}{2009}
+      \field{pages}{749\bibrangedash 752}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.atmosenv.2008.10.005
+      \endverb
+      \verb{file}
+      \verb :cs/home/dav/Downloads/MAE.pdf:pdf
+      \endverb
+      \keyw{Error statistics,Mean-absolute deviation,Standard deviation,Standard error}
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
 

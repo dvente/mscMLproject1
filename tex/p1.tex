@@ -38,15 +38,41 @@
 
 \section{Introduction}
 \label{intro}
-\cite{}
+In this report we were asked to desing and impolement a regression model to predict energy consumption in resident houses. In this report we will mirror the work of \autocite{Candanedo2017} in several ways, but depart from it in others which we will discuss now. Like \citeauthor{Candanedo2017} we  assume that it is desirable to better understand the impact different features have on energy consumption for prediction of other important phenomena, such as but not limited to ``determine[ing] adequate sizing of photovoltaics and energy storage to diminsih powre flow into the grid [and] to detect abnormal energy use patterns" \autocite{Candanedo2017}. Therefore we will develop several regression models that can tell us more about the impact certain features have on the overal energy usage. Here we will use three algorithms: \code{AdaBoost}, Random forests and polynomial regression with regularisation. See section \ref{modelSelection} for a more indepth explanation. 
  
 \section{The learnign process}
+\label{content}
+
 \subsection{Cleaning the data}
+\label{cleaning}
+
+
 \subsection{Analysing the data}
+\label{dataAnalisis}
+
 \subsection{Feature selection}
-\subsection{Training the model}
+\label{featureSelection}
+This is relatively straight forward. Since part of our objective is to discover underlying relations betweeen the features and the regression target, we will use all the features available in our analysis. It would however be possible that certain extracted features would yield better performance but this is unfortunately ouside the scope of this report.
+
+\subsection{Selecting and training the model}
+\label{modelSelection}
+\paragraph{Models}Since it is our goal to gain a better understanding of how the various features impact the overal energy usage, it behoves us to pick models that can easily provide this information. A lot of regression models, like Neural Networks do not provide this information natively. This would defeat a large part of the purpose of our research. We will discuss the models we chose to implement below and why they are suited to this task. 
+
+\paragraph{Metric}We must furthermore select a metric to judge our model by. Again we wanted to use a metric that was supported by our libraries, so this cut down the number of possibbilities considerably. We also wanted a metric that would let us interpret the results easily, since we are not just interested in raw performance, but in interpretability. This narrowed the possibilities down to the Root-Mean-Squared-Error  (RMSE) or the Mean-Absolute-Error (MAE). We eventually elected MAE since this provides a more neutral view of the accuracy \autocite{Willmott2009}.
+
+\subsubsection{Polynomial regression with regularisation}  Polynomial regression does not natively provide very good information about the relative importance of features. This can be done however, using a combination of normalisation and regularisation. Regularisation is originally ised to combat overfitting in polynomial regression. It does this by reducing the scale of certain features and enlarging other ones. If we make sure to properly normalise all of the features before training, then the regularisation doesn't have to compensate for scale. This means that after training we can identify important features by looking at the regularisation coefficients. Unreliable features will have small regularisation coefficients while important ones will have large ones. We could have done this with linear regression, but after examinening the data we found that the correlation between each individual feature was relatively low, leading us to conclude that linear regression would not suffice. We therefore decided to use quadratic regression. 
+
+\subsubsection{AdaBoost} \code{AdaBoost} is an ensemble method developed in \autocite{Freund1997}. Perhaps counter-inuitively \code{AdaBoost} is a sample selection algorithm instead of a feature selection algotihm. It works to identify ``hard examples" and works to improve accracy on those, under the assumption that that will also boost performance on the ``easy examples". The way that this can still provide insight into the feature space, is that we can look at the similarities between the ``easy examples". If for example all the easy examples have a large magnitude in one feature, we can deduce that that featre has a large impact. While this deduction is not a native it can yield much more insight than other black-box regression methods. 
+
+\paragraph{Choice of Boosting algorithm} \code{AdaBoost} is part of a class of ensemble methods called boosting algorithms. While \code{AdaBoost} is an older algorithm, and has worse performance than newer algorithms in this catagory (e.g. NH-Boost.DT or Squint-boost \autocite{NormalHedge,Otten2016,Vente2016}), it will serve for our purpose. We decided to use this one because it is supported in scikit-learn \autocite{Pedregosa2012} and implementing the other regression algorithms from scratch is outside the scope of this report. The astute reader will remark that random forests (discussed below) were developed in response to \code{AdaBoost} but we included it anyway to determine the viability of using a boosting algorithm in the way we described. 
+
+\subsubsection{Random Forests} Random forests is another ensemble method developed by \autocite{Breiman2001}. He writes ``Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. T[Random Forests] use a random selection of features to split each node [...]
+
 \subsection{Evaluating the model}
+\label{evaluation}
+
 \subsection{Discussing the results}
+\label{discussion}
 
 
 \section{Conclusion}
@@ -57,4 +83,4 @@
  
 word count: 
 \printbibliography
-f\end{document}
+\end{document}
