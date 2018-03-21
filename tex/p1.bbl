@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,21 +18,25 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nyt/global/}
+  \datalist[entry]{nyt/global//global/global}
     \entry{Breiman2001}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=132b7100417675d55d5d4d8b244f7a34}{%
+        {{uniquename=0,uniquepart=base,hash=132b7100417675d55d5d4d8b244f7a34}{%
            family={Breiman},
            familyi={B\bibinitperiod},
            given={Leo},
-           giveni={L\bibinitperiod}}}%
+           giveni={L\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -56,37 +60,43 @@
       \verb /dx.doi.org/10.1023{\%}2FA{\%}3A1010933404324
       \endverb
       \verb{file}
-      \verb :cs/home/dav/Downloads/RF.pdf:pdf
+      \verb :C$\backslash$:/Users/Daniel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Breiman - 2001 - Random forests.pdf:pdf
       \endverb
       \keyw{Classification,Ensemble,Regression}
     \endentry
     \entry{Candanedo2017}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=0,hash=36e0e3f8a2ed7a132697fd3677c48803}{%
+        {{uniquename=0,uniquepart=base,hash=36e0e3f8a2ed7a132697fd3677c48803}{%
            family={Candanedo},
            familyi={C\bibinitperiod},
            given={Luis\bibnamedelima M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{uniquename=0,hash=4ed162ca7bb628491d03d8db6243d941}{%
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5e24ae3c751829d16c20558bb03f0b94}{%
            family={Feldheim},
            familyi={F\bibinitperiod},
-           given={V\'{e}ronique},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=65fc98c29b750ae5a4965b164c267089}{%
+           given={V{é}ronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=65fc98c29b750ae5a4965b164c267089}{%
            family={Deramaix},
            familyi={D\bibinitperiod},
            given={Dominique},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Elsevier B.V.}%
       }
       \strng{namehash}{b3e66f1b39fced40d83c4d7631e244ba}
-      \strng{fullhash}{352f2ec7cd818a8671ee81b8c3f01101}
+      \strng{fullhash}{387fdcdcedaafa777f622d1648b75ada}
+      \strng{bibnamehash}{387fdcdcedaafa777f622d1648b75ada}
+      \strng{authorbibnamehash}{387fdcdcedaafa777f622d1648b75ada}
       \strng{authornamehash}{b3e66f1b39fced40d83c4d7631e244ba}
-      \strng{authorfullhash}{352f2ec7cd818a8671ee81b8c3f01101}
+      \strng{authorfullhash}{387fdcdcedaafa777f622d1648b75ada}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -103,243 +113,166 @@
       \verb 10.1016/j.enbuild.2017.01.083
       \endverb
       \verb{file}
-      \verb :cs/home/dav/Downloads/paper.pdf:pdf
+      \verb :C$\backslash$:/Users/Daniel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Candanedo, Feldheim, Deramaix - 2017 - Data driven prediction models of energy use of appliances in a low-energy house.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.enbuild.2017.01.083
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1016/j.enbuild.2017.01.083
       \endverb
       \keyw{Appliances,Data mining,Data sets available,Energy,Prediction,Statistical learning models,Wireless sensor network}
     \endentry
-    \entry{Freund1997}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=9dae54fc70ef3090ef42046937183be2}{%
-           family={Freund},
-           familyi={F\bibinitperiod},
-           given={Yoav},
-           giveni={Y\bibinitperiod}}}%
-        {{uniquename=1,hash=8428d6ce4d2319a5be839da6c9ae0128}{%
-           family={Schapire},
-           familyi={S\bibinitperiod},
-           given={Robert\bibnamedelima E},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
-      \strng{fullhash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
-      \strng{authornamehash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
-      \strng{authorfullhash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract In the first part of the paper we consider the problem of dynamically apportioning resources among a set of options in a worst-case on-line framework. The model we study can be interpreted as a broad, abstract extension of the well-studied on-line prediction model to a general decision-theoretic setting. We show that the multiplicative weight-update Littlestone\x{fffd}\x{fffd}\x{fffd}Warmuth rule can be adapted to this model, yielding bounds that are slightly weaker in some cases, but applicable to a considerably more general class of learning problems. We show how the resulting learning algorithm can be applied to a variety of problems, including gambling, multiple-outcome prediction, repeated games, and prediction of points in Rn. In the second part of the paper we apply the multiplicative weight-update technique to derive a new boosting algorithm. This boosting algorithm does not require any prior knowledge about the performance of the weak learning algorithm. We also study generalizations of the new boosting algorithm to the problem of learning functions whose range, rather than being binary, is an arbitrary finite set or a bounded segment of the real line.}
-      \field{issn}{0022-0000}
-      \field{journaltitle}{Journal of Computer and System Sciences}
-      \field{number}{1, part 2}
-      \field{title}{{A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting}}
-      \field{volume}{55}
-      \field{year}{1997}
-      \field{pages}{119\bibrangedash 139}
-      \range{pages}{21}
-      \verb{doi}
-      \verb https://doi.org/10.1006/jcss.1997.1504
-      \endverb
-      \verb{file}
-      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Freund, Schapire - 1997 - A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting(2).pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S002200009791504X
-      \endverb
-    \endentry
-    \entry{NormalHedge}{incollection}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=c0fca6c342b798ab3b2482eb75663d0a}{%
-           family={Luo},
-           familyi={L\bibinitperiod},
-           given={Haipeng},
-           giveni={H\bibinitperiod}}}%
-        {{uniquename=1,hash=89c762f6f1cbb415e5ef62949aedecd0}{%
-           family={Schapire},
-           familyi={S\bibinitperiod},
-           given={Robert\bibnamedelimb E\bibnamedelima RE},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \name{editor}{5}{}{%
-        {{hash=b8fd0c0f416ef8a8bbb50286418e9df8}{%
-           family={Ghahramani},
-           familyi={G\bibinitperiod},
-           given={Z},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=064d84a432787740019dc765d9115718}{%
-           family={Welling},
-           familyi={W\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c294bbcb0687bdb5113cc4c4cd6ebad3}{%
-           family={Cortes},
-           familyi={C\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9ab079a7715bfa4227f140d780bb72b7}{%
-           family={Lawrence},
-           familyi={L\bibinitperiod},
-           given={N\bibnamedelima D},
-           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=7a6a6c0be00ec21ecb08879998daf8b8}{%
-           family={Weinberger},
-           familyi={W\bibinitperiod},
-           given={K\bibnamedelima Q},
-           giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Curran Associates, Inc.}%
-      }
-      \strng{namehash}{1eb2f27e3df1c2255e31ffd98bb4f175}
-      \strng{fullhash}{1eb2f27e3df1c2255e31ffd98bb4f175}
-      \strng{authornamehash}{1eb2f27e3df1c2255e31ffd98bb4f175}
-      \strng{authorfullhash}{1eb2f27e3df1c2255e31ffd98bb4f175}
-      \strng{editornamehash}{65b7e9a4aa080eb7f3776176b707f81c}
-      \strng{editorfullhash}{c7ba7617e93a69d59a573eaaedbef28e}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We provide a general mechanism to design online learning algorithms based on a minimax analysis within a drifting-games framework. Different online learning settings (Hedge, multi-armed bandit problems and online convex optimization) are studied by converting into various kinds of drifting games. The original minimax analysis for drifting games is then used and generalized by applying a series of relaxations, starting from choosing a convex surrogate of the 0-1 loss function. With different choices of surrogates, we not only recover existing algorithms, but also propose new algorithms that are totally parameter-free and enjoy other useful properties. Moreover, our drifting-games framework naturally allows us to study high probability bounds without resorting to any concentration results, and also a generalized notion of regret that measures how good the algorithm is compared to all but the top small fraction of candidates. Finally, we translate our new Hedge algorithm into a new adaptive boosting algorithm that is computationally faster as shown in experiments, since it ignores a large number of examples on each round.}
-      \field{booktitle}{Advances in Neural Information Processing Systems 27}
-      \field{title}{{A Drifting-Games Analysis for Online Learning and Applications to Boosting}}
-      \field{year}{2014}
-      \field{pages}{1368\bibrangedash 1376}
-      \range{pages}{9}
-      \verb{file}
-      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Luo, Schapire - 2014 - A drifting-games analysis for online learning and applications to boosting(2).pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://papers.nips.cc/paper/5549-a-drifting-games-analysis-for-online-learning-and-applications-to-boosting
-      \endverb
-    \endentry
-    \entry{Otten2016}{article}{}
+    \entry{Jeromeh1999}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=c481f627eed1eae6b1219284e6e2c3f5}{%
-           family={Otten},
-           familyi={O\bibinitperiod},
-           given={Heleen},
-           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=d3218b287552190cf826bec639dfeaa6}{%
+           family={Jerome\bibnamedelima h},
+           familyi={J\bibinitperiod\bibinitdelim h\bibinitperiod},
+           prefix={friedman},
+           prefixi={f\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Leiden University}%
-      }
-      \strng{namehash}{c481f627eed1eae6b1219284e6e2c3f5}
-      \strng{fullhash}{c481f627eed1eae6b1219284e6e2c3f5}
-      \strng{authornamehash}{c481f627eed1eae6b1219284e6e2c3f5}
-      \strng{authorfullhash}{c481f627eed1eae6b1219284e6e2c3f5}
-      \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \strng{namehash}{d3218b287552190cf826bec639dfeaa6}
+      \strng{fullhash}{d3218b287552190cf826bec639dfeaa6}
+      \strng{bibnamehash}{d3218b287552190cf826bec639dfeaa6}
+      \strng{authorbibnamehash}{d3218b287552190cf826bec639dfeaa6}
+      \strng{authornamehash}{d3218b287552190cf826bec639dfeaa6}
+      \strng{authorfullhash}{d3218b287552190cf826bec639dfeaa6}
+      \field{sortinit}{f}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{A theoretical examination of boosting algorithms}}
-      \field{type}{Bachelor Thesis}
-      \field{year}{2016}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9788578110796}
+      \field{issn}{1098-6596}
+      \field{title}{{Greedy Function Approximation a Gradient Boosting Machine}}
+      \field{year}{1999}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
       \verb{file}
-      \verb :cs/home/dav/Downloads/otten.pdf:pdf
+      \verb :C$\backslash$:/Users/Daniel/Downloads/trebst.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://statweb.stanford.edu/{~}jhf/ftp/trebst.pdf
       \endverb
       \verb{url}
-      \verb https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/otten.pdf
+      \verb https://statweb.stanford.edu/%7B~%7Djhf/ftp/trebst.pdf
       \endverb
     \endentry
     \entry{Pedregosa2012}{article}{}
       \name{author}{16}{}{%
-        {{uniquename=0,hash=bab4e5caee2d67831e464ce575022b37}{%
+        {{uniquename=0,uniquepart=base,hash=bab4e5caee2d67831e464ce575022b37}{%
            family={Pedregosa},
            familyi={P\bibinitperiod},
            given={Fabian},
-           giveni={F\bibinitperiod}}}%
-        {{uniquename=0,hash=cfa3239dded54488f9a82a5718d5b927}{%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0dca8e8d308f467938614f484c0b23af}{%
            family={Varoquaux},
            familyi={V\bibinitperiod},
-           given={Ga\"{e}l},
-           giveni={G\bibinitperiod}}}%
-        {{uniquename=0,hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           given={Ga{ë}l},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=12ebe424e1c87de156c57e8fa7683f46}{%
            family={Gramfort},
            familyi={G\bibinitperiod},
            given={Alexandre},
-           giveni={A\bibinitperiod}}}%
-        {{uniquename=0,hash=504ea1986689f1047a6f0beda2cb3822}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=504ea1986689f1047a6f0beda2cb3822}{%
            family={Michel},
            familyi={M\bibinitperiod},
            given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
            family={Thirion},
            familyi={T\bibinitperiod},
            given={Bertrand},
-           giveni={B\bibinitperiod}}}%
-        {{uniquename=0,hash=721be0317527f44db425f7a97dcab15e}{%
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=721be0317527f44db425f7a97dcab15e}{%
            family={Grisel},
            familyi={G\bibinitperiod},
            given={Olivier},
-           giveni={O\bibinitperiod}}}%
-        {{uniquename=0,hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
            family={Blondel},
            familyi={B\bibinitperiod},
            given={Mathieu},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=86e647e5c801f3ce733927f75f029463}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=86e647e5c801f3ce733927f75f029463}{%
            family={Prettenhofer},
            familyi={P\bibinitperiod},
            given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{uniquename=0,hash=89d698773eaf2fae761ff0008031c7be}{%
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=89d698773eaf2fae761ff0008031c7be}{%
            family={Weiss},
            familyi={W\bibinitperiod},
            given={Ron},
-           giveni={R\bibinitperiod}}}%
-        {{uniquename=0,hash=b255e99d411f28c789a231829f765c64}{%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b255e99d411f28c789a231829f765c64}{%
            family={Dubourg},
            familyi={D\bibinitperiod},
            given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=a08a00cf90823600b731a138afc28949}{%
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a08a00cf90823600b731a138afc28949}{%
            family={Vanderplas},
            familyi={V\bibinitperiod},
            given={Jake},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=afb9a37bec11b531f1f0f33793a7f1fe}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=afb9a37bec11b531f1f0f33793a7f1fe}{%
            family={Passos},
            familyi={P\bibinitperiod},
            given={Alexandre},
-           giveni={A\bibinitperiod}}}%
-        {{uniquename=0,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
            family={Cournapeau},
            familyi={C\bibinitperiod},
            given={David},
-           giveni={D\bibinitperiod}}}%
-        {{uniquename=0,hash=281ac3097ec8447c2d26e9f3cfde6082}{%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=281ac3097ec8447c2d26e9f3cfde6082}{%
            family={Brucher},
            familyi={B\bibinitperiod},
            given={Matthieu},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=23403cde972dddbdb48efe2bcc07dc3c}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23403cde972dddbdb48efe2bcc07dc3c}{%
            family={Perrot},
            familyi={P\bibinitperiod},
            given={Matthieu},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=e2f7a458c7c1f0d13cbcaad5c415ad54}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f937c35f16cf2a0eb7870a6512c3c794}{%
            family={Duchesnay},
            familyi={D\bibinitperiod},
-           given={\'{E}douard},
-           giveni={\'{E}\bibinitperiod}}}%
+           given={{É}douard},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{9ec95d747bac3417f92265a9a44f8bb4}
-      \strng{fullhash}{490c08d091505100c571bcba89f8c65d}
+      \strng{fullhash}{df155dac8d8dc0cb9b160f5885e12eb8}
+      \strng{bibnamehash}{9d492dfab30d17a95396ecf8139e8eea}
+      \strng{authorbibnamehash}{9d492dfab30d17a95396ecf8139e8eea}
       \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
-      \strng{authorfullhash}{490c08d091505100c571bcba89f8c65d}
+      \strng{authorfullhash}{df155dac8d8dc0cb9b160f5885e12eb8}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -354,73 +287,53 @@
       \field{pages}{2825\bibrangedash 2830}
       \range{pages}{6}
       \verb{file}
-      \verb :cs/home/dav/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Pedregosa et al. - 2012 - Scikit-learn Machine Learning in Python(2).pdf:pdf
+      \verb :C$\backslash$:/Users/Daniel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pedregosa et al. - 2012 - Scikit-learn Machine Learning in Python.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dl.acm.org/citation.cfm?id=2078195{\%}5Cnhttp://arxiv.org/abs/1201.0490
       \endverb
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=2078195%7B%5C%%7D5Cnhttp://arxiv.org/abs/1201.0490
       \endverb
     \endentry
-    \entry{Vente2016}{thesis}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=b723134bb7b2e7f781e1219598c0152a}{%
-           family={Vente},
-           familyi={V\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Univeristy of Leiden}%
-      }
-      \strng{namehash}{b723134bb7b2e7f781e1219598c0152a}
-      \strng{fullhash}{b723134bb7b2e7f781e1219598c0152a}
-      \strng{authornamehash}{b723134bb7b2e7f781e1219598c0152a}
-      \strng{authorfullhash}{b723134bb7b2e7f781e1219598c0152a}
-      \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{To appear at $\backslash$url{\{}https://www.math.leidenuniv.nl/nl/theses/year/2016/{\}}}
-      \field{title}{{A practical comparison of boosting algorithms}}
-      \field{type}{Bachelor Thesis}
-      \field{year}{2016}
-      \verb{file}
-      \verb :cs/home/dav/Downloads/thesis.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/vente.pdf
-      \endverb
-    \endentry
     \entry{Willmott2009}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=0,hash=b06501ea344f485ac55f62e3d66beb42}{%
+        {{uniquename=0,uniquepart=base,hash=b06501ea344f485ac55f62e3d66beb42}{%
            family={Willmott},
            familyi={W\bibinitperiod},
            given={Cort\bibnamedelima J.},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{uniquename=0,hash=683ecc9a84dc4c42d3b77ac983b771ca}{%
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=683ecc9a84dc4c42d3b77ac983b771ca}{%
            family={Matsuura},
            familyi={M\bibinitperiod},
            given={Kenji},
-           giveni={K\bibinitperiod}}}%
-        {{uniquename=0,hash=8817c673f9c94ea7545daf1290a71747}{%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8817c673f9c94ea7545daf1290a71747}{%
            family={Robeson},
            familyi={R\bibinitperiod},
            given={Scott\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
       }
       \strng{namehash}{19951f921994b8f5ce5355d16804a75e}
       \strng{fullhash}{5208498f02f7b57eb4c5bd0a4086a8fa}
+      \strng{bibnamehash}{5208498f02f7b57eb4c5bd0a4086a8fa}
+      \strng{authorbibnamehash}{5208498f02f7b57eb4c5bd0a4086a8fa}
       \strng{authornamehash}{19951f921994b8f5ce5355d16804a75e}
       \strng{authorfullhash}{5208498f02f7b57eb4c5bd0a4086a8fa}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Commonly used sums-of-squares-based error or deviation statistics-like the standard deviation, the standard error, the coefficient of variation, and the root-mean-square error-often are misleading indicators of average error or variability. Sums-of-squares-based statistics are functions of at least two dissimilar patterns that occur within data. Both the mean of a set of error or deviation magnitudes (the average of their absolute values) and their variability influence the value of a sum-of-squares-based error measure, which confounds clear assessment of its meaning. Interpretation problems arise, according to Paul Mielke, because sums-of-squares-based statistics do not satisfy the triangle inequality. We illustrate the difficulties in interpreting and comparing these statistics using hypothetical data, and recommend the use of alternate statistics that are based on sums of error or deviation magnitudes. {{$\copyright$}} 2008 Elsevier Ltd. All rights reserved.}
+      \field{abstract}{Commonly used sums-of-squares-based error or deviation statistics-like the standard deviation, the standard error, the coefficient of variation, and the root-mean-square error-often are misleading indicators of average error or variability. Sums-of-squares-based statistics are functions of at least two dissimilar patterns that occur within data. Both the mean of a set of error or deviation magnitudes (the average of their absolute values) and their variability influence the value of a sum-of-squares-based error measure, which confounds clear assessment of its meaning. Interpretation problems arise, according to Paul Mielke, because sums-of-squares-based statistics do not satisfy the triangle inequality. We illustrate the difficulties in interpreting and comparing these statistics using hypothetical data, and recommend the use of alternate statistics that are based on sums of error or deviation magnitudes. {©} 2008 Elsevier Ltd. All rights reserved.}
       \field{isbn}{1352-2310}
       \field{issn}{13522310}
       \field{journaltitle}{Atmospheric Environment}
@@ -434,11 +347,17 @@
       \verb 10.1016/j.atmosenv.2008.10.005
       \endverb
       \verb{file}
-      \verb :cs/home/dav/Downloads/MAE.pdf:pdf
+      \verb :C$\backslash$:/Users/Daniel/Downloads/WMR{\_}Atmos{\_}Env{\_}09.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.atmosenv.2008.10.005
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.atmosenv.2008.10.005
       \endverb
       \keyw{Error statistics,Mean-absolute deviation,Standard deviation,Standard error}
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 \endinput
 

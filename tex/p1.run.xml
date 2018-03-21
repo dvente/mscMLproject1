@@ -52,6 +52,7 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>apa.dbx</file>
+      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>apa.bbx</file>
@@ -82,7 +83,7 @@
       <file>p1.bcf</file>
     </requires>
     <requires type="editable">
-      <file>~/Tex/library.bib</file>
+      <file>C:/Users/Daniel/Documents/BibTex/library.bib</file>
     </requires>
   </external>
 </requests>
