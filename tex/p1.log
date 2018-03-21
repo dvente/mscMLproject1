@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.1.16)  21 MAR 2018 16:26
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6500 64-bit)  (format=lualatex 2018.1.16)  21 MAR 2018 16:59
  restricted system commands enabled.
 **p1.tex
 (./p1.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.026 seconds
+luaotfload | main : initialization completed in 1.009 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 ("C:/Users/Daniel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -709,20 +709,20 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 ))) (./p1.aux)
 \openout1 = p1.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -732,8 +732,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'p1.bbl' found.
  (./p1.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -817,12 +817,12 @@ o10-regular.luc)(load luc: C:/Users/Daniel/AppData/Local/MiKTeX/2.9/luatex-cache
 <relFeatureImp.png, id=15, pagebox=cropbox, 396.48125pt x 279.0425pt>
 File: relFeatureImp.png Graphic file (type png)
 <use relFeatureImp.png>
-Package luatex.def Info: relFeatureImp.png  used on input line 97. on input line
- 97.
+Package luatex.def Info: relFeatureImp.png  used on input line 101. on input lin
+e 101.
 Package luatex.def Info: Requested size: 234.8775pt x 165.31064pt on input line 
-97.
-(load luc: C:/Users/Daniel/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/o
-tl/lmroman10-italic.luc) [3] [4<./relFeatureImp.png>] (./p1.aux)
+101.
+ [3](load luc: C:/Users/Daniel/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fon
+ts/otl/lmroman10-italic.luc) [4<./relFeatureImp.png>] (./p1.aux)
 Package logreq Info: Writing requests to 'p1.run.xml'.
 
 \openout1 = p1.run.xml
@@ -834,8 +834,8 @@ Here is how much of LuaTeX's memory you used:
  501 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 6 attribute, 56 glue_spec, 6 attrib
 ute_list, 1 write nodes
-   avail lists: 1:2,2:369,3:146,4:24,5:228,6:12,7:3840,8:92,9:101,10:15,11:262,1
-2:1
+   avail lists: 1:2,2:347,3:154,4:26,5:277,6:13,7:4403,8:86,9:97,10:15,11:302,12
+:1
  16215 multiletter control sequences out of 65536+200000
  47 fonts using 3262071 bytes
  43i,7n,61p,1277b,2205s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -849,7 +849,7 @@ f><c:/users/daniel/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
 roman12-regular.otf><c:/users/daniel/appdata/local/programs/miktex 2.9/fonts/ope
 ntype/public/lm/lmroman17-regular.otf><C:/Users/Daniel/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on p1.pdf (4 pages, 67201 bytes).
+Output written on p1.pdf (4 pages, 67670 bytes).
 
 PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
